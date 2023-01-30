@@ -10,4 +10,4 @@ hello()
 bye()
 
 # --------------to display all module names--------------- #
-help("modules")
+# help("cum")

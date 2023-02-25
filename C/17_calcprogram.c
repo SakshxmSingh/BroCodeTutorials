@@ -7,14 +7,14 @@ int main(){
     double num2;
     double result;
 
+    printf("Enter operation: ");
+    scanf("%c",&ops);
+
     printf("Enter no.1: ");
     scanf("%lf",&num1);
 
     printf("Enter no.2: ");
     scanf("%lf",&num2);
-
-    printf("Enter operation: ");
-    scanf("%c",&ops);
 
     switch(ops){
         case '+':

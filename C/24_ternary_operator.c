@@ -9,10 +9,11 @@ int main()
 {
    // ternary operator = shortcut to if/else when assigning/returning a value
    // (condition) ? value if true : value if false
+   int n=10;
+   printf("%d\n%d\n%d\n", n, n++, ++n);
+   // int max = findMax(3, 4);
 
-   int max = findMax(3, 4);
-
-   printf("%d", max);
+   // printf("%d", max);
   
    return 0;
 }

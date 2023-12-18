@@ -1,0 +1,13 @@
+h1{
+    text-shadow: 10px 10px 20px red, -10px -10px 20px blue;
+    font-size: 100px;
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px black;
+}
+

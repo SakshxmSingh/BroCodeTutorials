@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a id="button1Link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">
+        <button id="button1" style="background-color: brown; color: aqua; border-radius: 10px;">
+            hit me, hit me good
+        </button>
+    </a>
+
+    <br><br>
+
+    <button onclick="onClick()" style="background-color: blueviolet; color: chartreuse; border-radius: 10px; font-size: 15px;">
+        haww exploit me too
+    </button>
+
+    <script>
+        function onClick(){
+            document.getElementById("button1").innerHTML = "fine dont show me love";
+            // document.getElementById("button1Link").innerHTML = document.getElementById("button1");
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "aoudax";
+    src: url(assets/Aoudax-Display.otf);
+}
+
+
+body{
+    background-color: #1e1e1e;
+}
+
+h1{
+    color: yellow;
+    text-align: center;
+    font-family: "aoudax";
+}
+
+p{
+    font-family: "space mono", monospace;  /*imported from google fonts*/
+    color: turquoise;
+    font-size: 20px;
+}
+
+.lead{
+    border: 5px black solid;
+    padding: 10px;
+    color: chartreuse;
+}
+
+#secondText{
+    color: tomato;
+    border-bottom: dotted 5px blue;
+    border-top: dotted 5px turquoise;
+}
